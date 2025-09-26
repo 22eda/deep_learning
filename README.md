@@ -1,5 +1,8 @@
 Yüz İfadesi Tanıma Projesi -CNN DEEP LEARNİNG
 
+KAGGLE PROJE LİNK: https://www.kaggle.com/code/edanurdemirel/cnn-emotion-detection?scriptVersionId=264191317
+KAGGLE VERİ SETİ: https://www.kaggle.com/datasets/deadskull7/fer2013
+
 Giriş
 Bu proje, FER2013 veri setini kullanarak yüz ifadelerini tanımak için Evrişimsel Sinir Ağları (CNN) modelleri geliştirmeyi amaçlamaktadır. Proje kapsamında, sıfırdan oluşturulan bir temel CNN modeli ile önceden eğitilmiş bir VGG16 modeline dayanan transfer öğrenme modeli karşılaştırılmıştır.
 
