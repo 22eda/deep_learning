@@ -1,6 +1,6 @@
 Yüz İfadesi Tanıma Projesi -CNN DEEP LEARNİNG
 
-KAGGLE PROJE LİNK: https://www.kaggle.com/code/edanurdemirel/cnn-emotion-detection?scriptVersionId=264191317
+KAGGLE PROJE LİNK(güncellenmiş): [https://www.kaggle.com/code/edanurdemirel/cnn-emotion-detection?scriptVersionId=264191317](https://www.kaggle.com/code/edanurdemirel/cnn-emotion-detection?scriptVersionId=264329878)
 KAGGLE VERİ SETİ: https://www.kaggle.com/datasets/deadskull7/fer2013
 
 Giriş
@@ -23,9 +23,9 @@ ImageDataGenerator kullanılarak döndürme, kaydırma ve yakınlaştırma gibi 
 Proje Sonuçları ve Analiz
 Modellerin test verisi üzerindeki performansı şu şekildedir:
 
-Temel CNN Modeli Doğruluğu: %84.89
+Temel CNN Modeli Doğruluğu: %60.27
 
-Transfer Öğrenme Modeli Doğruluğu: %60.41
+Transfer Öğrenme Modeli Doğruluğu: %38.13
 
 Analiz: Bu sonuçlar, kendi oluşturduğumuz temel CNN modelinin, transfer öğrenme modeline kıyasla çok daha başarılı olduğunu göstermektedir. Bunun ana nedeni, FER2013 veri setinin gri tonlamalı ve düşük çözünürlüklü olmasıdır. VGG16'nın ImageNet'ten öğrendiği özellikler, yüz ifadesi gibi spesifik ve küçük detayları tanımak için yeterli olmamıştır. Temel CNN modelimiz ise doğrudan bu göreve özel olarak eğitildiği için daha yüksek doğruluk oranına ulaşmıştır.
 
